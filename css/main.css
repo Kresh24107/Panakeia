@@ -1,0 +1,40 @@
+.welcome-sct {
+  max-width: 1200px;
+  background-image: url(/img/welcom-bgi.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+  height: 150px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heder-nav a {
+  color: #31353e;
+}
+
+.my-container {
+  max-width: 1200px;
+}
+
+.bgc {
+  background-color: #dd4b2b;
+}
+
+.disp-fl {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jst-between {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
