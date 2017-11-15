@@ -228,7 +228,7 @@
 }
 
 .lg-nav-list {
-  background-color: #dd4b2b;
+  background-color: #d75d0e;
 }
 
 .list-block {
@@ -246,6 +246,61 @@
 .list-block a:hover {
   color: #31353e;
   text-decoration: none;
+}
+
+.project-detalis {
+  background-color: inherit;
+  padding: 15px 0 45px 0 !important;
+}
+
+.product {
+  padding-top: 25px !important;
+}
+
+.product div {
+  text-align: start;
+  margin: 20px !important;
+}
+
+.product button {
+  background-color: #dd4b2b !important;
+  color: #ffffff !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.product:nth-child(2n) {
+  direction: rtl;
+  padding-top: 25px !important;
+}
+
+.product:nth-child(2n) div {
+  text-align: end !important;
+  margin: 20px !important;
+}
+
+.product:nth-child(2n) button {
+  background-color: #4b4e73 !important;
+}
+
+.ipsum-aling h3 {
+  color: #191b29;
+  font-family: Roboto Slab serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.ipsum-aling p {
+  color: #191b29;
+  font-family: Roboto sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+body {
+  background-color: #edeff1;
 }
 
 .container {
