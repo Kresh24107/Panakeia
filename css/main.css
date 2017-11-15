@@ -192,7 +192,7 @@
 }
 
 .form-bg {
-  margin: 0 0 0 10px !important;
+  margin: 30px 0 0 10px !important;
   background-color: #ffffff;
   -webkit-border-radius: 27px;
           border-radius: 27px;
@@ -225,6 +225,27 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+}
+
+.lg-nav-list {
+  background-color: #dd4b2b;
+}
+
+.list-block {
+  padding: 50px 0 40px 0 !important;
+}
+
+.list-block a {
+  color: #ffffff;
+  font-family: Roboto sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.list-block a:hover {
+  color: #31353e;
+  text-decoration: none;
 }
 
 .container {
