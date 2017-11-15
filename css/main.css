@@ -17,7 +17,7 @@
 }
 
 .marg-hello {
-  padding-top: 245px;
+  padding-top: 30px;
 }
 
 .header {
@@ -81,6 +81,7 @@
 }
 
 .point-style h3 {
+  padding: 15px 0;
   font-family: Roboto Slab serif;
   font-size: 30px;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
@@ -97,7 +98,7 @@
 }
 
 .my-button {
-  margin: 40px auto !important;
+  margin: 20px auto !important;
   padding: 10px 30px !important;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -114,14 +115,44 @@
   line-height: 30px;
 }
 
-.my-container {
+.our-news {
+  margin: 0 auto;
+  background-color: #edeff1;
+  min-height: 100vh;
+}
+
+.our-news-heder {
+  padding: 40px;
+  text-align: center;
+}
+
+.square-style {
+  color: #31353e;
+  text-align: center;
+  font-family: Roboto sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.square-style div {
+  margin: 20px 0 !important;
+}
+
+.square-style div h4 {
+  font-family: Roboto Slab serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.square-style div p {
+  font-weight: 300;
+}
+
+.container {
   max-width: 1200px !important;
   text-align: center;
   margin: 0 auto;
-}
-
-.bgc {
-  background-color: #dd4b2b;
 }
 
 .disp-fl {
