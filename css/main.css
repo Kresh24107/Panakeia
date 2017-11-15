@@ -1,24 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab");
 .welcome-sct {
-  max-width: 1200px;
-  background-image: url(/img/welcom-bgi.jpg);
   -webkit-background-size: cover;
-  background-size: cover;
-}
-
-.header {
-  height: 150px;
+          background-size: cover;
+  min-height: 100vh;
+  height: 100%;
+  display: inherit;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../img/welcom-bgi.jpg");
+}
+
+.marg-hello {
+  padding-top: 245px;
+}
+
+.header {
+  height: 75px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: static;
+}
+
+.heder-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.heder-nav:last-child {
+  margin-right: -30px;
+}
+
+.heder-nav li {
+  list-style: none;
+  margin: 10px;
 }
 
 .heder-nav a {
   color: #31353e;
+  padding: 8px 11px;
+}
+
+.heder-nav a:hover {
+  background-color: #dd4b2b;
+  color: #edeff1;
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+}
+
+.hello {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: Roboto Slab serif;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.hello h1 {
+  font-size: 72px;
+  font-weight: 300;
+}
+
+.hello p {
+  font-weight: 700;
+}
+
+.point-style {
+  margin-top: 75px !important;
+  color: #ffffff;
+  text-align: center;
+}
+
+.point-style h3 {
+  font-family: Roboto Slab serif;
+  font-size: 30px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.point-style p {
+  font-size: 15px;
+  font-family: Roboto sans-serif;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.my-button {
+  margin: 40px auto !important;
+  padding: 10px 30px !important;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-border-radius: 27px !important;
+          border-radius: 27px !important;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #ffffff;
+  color: #612316;
+  font-family: Roboto Slab serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 .my-container {
-  max-width: 1200px;
+  max-width: 1200px !important;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .bgc {
