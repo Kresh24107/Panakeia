@@ -149,6 +149,32 @@
   font-weight: 300;
 }
 
+.newsletter {
+  -webkit-background-size: cover;
+          background-size: cover;
+  display: inherit;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../img/bg-newsletter.jpg");
+}
+
+.newsletter-maeg {
+  padding: 50px;
+}
+
+.input-email {
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  background-color: #ffffff;
+  -webkit-border-radius: 27px;
+          border-radius: 27px;
+}
+
 .container {
   max-width: 1200px !important;
   text-align: center;
