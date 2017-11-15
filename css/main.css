@@ -51,8 +51,8 @@
 .heder-nav a:hover {
   background-color: #dd4b2b;
   color: #edeff1;
-  -webkit-border-radius: 25px;
-          border-radius: 25px;
+  -webkit-border-radius: 27px;
+          border-radius: 27px;
 }
 
 .hello {
@@ -122,7 +122,7 @@
 }
 
 .our-news-heder {
-  padding: 40px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -136,7 +136,7 @@
 }
 
 .square-style div {
-  margin: 20px 0 !important;
+  margin: 30px 0 20px 0 !important;
 }
 
 .square-style div h4 {
@@ -152,6 +152,8 @@
 .newsletter {
   -webkit-background-size: cover;
           background-size: cover;
+  min-height: 380px;
+  height: 100%;
   display: inherit;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -161,18 +163,68 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url("../img/bg-newsletter.jpg");
+  background-image: url("../img/bg-newslet.jpg");
+}
+
+.newsletter h3 {
+  color: #ffffff;
+  font-family: Roboto Slab serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.newsletter p {
+  color: #ffffff;
+  font-family: Roboto sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
 }
 
 .newsletter-maeg {
-  padding: 50px;
+  width: 560px !important;
+  padding: 50px 0;
 }
 
-.input-email {
-  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+.newsletter-maeg h3 {
+  margin-top: 30px;
+}
+
+.form-bg {
+  margin: 0 0 0 10px !important;
   background-color: #ffffff;
   -webkit-border-radius: 27px;
           border-radius: 27px;
+  width: 510px;
+  height: 55px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-bg input {
+  padding: 0 !important;
+  margin: 0 120px 0 -90px !important;
+  color: #dd4b2b;
+  font-family: Roboto Slab serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.form-bg button {
+  margin: 0 -80px 0 0 !important;
+  -webkit-border-radius: 27px !important;
+          border-radius: 27px !important;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #ffffff;
+  color: #612316;
+  font-family: Roboto Slab serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 .container {
@@ -193,4 +245,15 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.aling-center {
+  -webkit-box-pack: center !important;
+  -webkit-justify-content: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+  -webkit-align-items: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
 }
