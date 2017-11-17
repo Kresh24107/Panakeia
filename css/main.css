@@ -40,12 +40,11 @@
 
 .heder-nav li {
   list-style: none;
-  margin: 10px;
 }
 
 .heder-nav a {
   color: #31353e;
-  padding: 8px 11px;
+  padding: 8px 25px;
 }
 
 .heder-nav a:hover {
@@ -53,6 +52,7 @@
   color: #edeff1;
   -webkit-border-radius: 27px;
           border-radius: 27px;
+  text-decoration: none;
 }
 
 .hello {
@@ -99,7 +99,7 @@
 
 .my-button {
   margin: 20px auto !important;
-  padding: 10px 30px !important;
+  padding: 10px 50px !important;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -163,7 +163,7 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url("../img/bg-newslet.jpg");
+  background-image: url("../img/bg-humbg.jpg");
 }
 
 .newsletter h3 {
@@ -265,8 +265,8 @@
 .product button {
   background-color: #dd4b2b !important;
   color: #ffffff !important;
-  padding-left: 30px !important;
-  padding-right: 30px !important;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
 }
 
 .product:nth-child(2n) {
@@ -332,4 +332,11 @@ body {
   -webkit-align-items: center !important;
       -ms-flex-align: center !important;
           align-items: center !important;
+}
+
+.just-footer {
+  background-image: url("../img/bg-humbg.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 180px;
 }
